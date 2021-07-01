@@ -2,7 +2,7 @@
   <div class="row text-center" style="width:100%; height:100%">
     <div class="col-sm-3"/>
     <div class="col-sm-6" style="vertical-align:middle">
-        <h2>양동혁 -> 이름 디자인 넣어서 추가할 예정</h2>
+        <h2>기본적인 자기소개 페이지 추가하기</h2>
         <img src="../assets/white.jpg" alt="양동혁" width="400" height="550"> 
         <h2>정말 기본적인 디자인을 추가하여 넣기</h2>
     </div>
