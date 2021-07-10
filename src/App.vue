@@ -1,18 +1,30 @@
 <template>
   <div id ="app">
     <Menu></Menu>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <router-view msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+#app {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+</style>
+
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import Menu from './components/header/menu.vue'
 
 export default {
   name: "App",
   components: {
-    HelloWorld, Menu,
+    Menu,
   },
 };
 </script>

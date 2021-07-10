@@ -1,24 +1,23 @@
 <template>
-	<div class="container">
-		<ul class="nav justify-content-center">
-			<li class="nav-item"> <a class="nav-link active" href="#">WHO</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#">ABOUT</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#">RESUME</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#">PROTFOLIO</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#">SERVICE</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#">CONTACT</a></li>
-		</ul>
-
-	</div>
+<div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <router-link class="nav-link" to="/portfolio">WHO</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/about">ABOUT</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/project">PROJECT</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/service">SERVICE</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link class="nav-link" to="/contact">CONTACT</router-link>
+      </li>
+    </ul>
+  </nav>
+</div>
 </template>
-
-<style>
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-</style>
