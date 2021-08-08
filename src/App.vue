@@ -13,7 +13,7 @@
 }
 
 body {
-  background: #000;
+  background: #fff;
 }
 
 </style>

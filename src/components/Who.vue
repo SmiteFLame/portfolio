@@ -1,39 +1,45 @@
 <template>
-  <div class="row text-center" style="width:100%; height:100%">
+  <div id="back" class="row text-center" style="width:105%; height:100%; position:fixed">
     <!-- 전체 백그라운드 이미지 추가하기 -->
-    <div class="col-sm-2"/>
     <div class="col-sm-4">
         <img src="../assets/white.jpg" alt="양동혁" width="400" height="550" style="margin-top:150px"> 
     </div>
     <div class="col-sm-4" style="vertical-align:middle">
       <div style="margin-top:250px">
-        <h2>
-          <span>Devloper</span>
+        <next>
+          <span>Backend Devloper</span>
           <br>
           <span class="light">양동혁</span>
           <br>
-          <br>
-          <span>DongHyeok Yang</span> 
           <br>
           <span># Dongguk univ</span> 
           <br>
           <span># Multimedia Engineering</span> 
           <br>
           <span># SSAFY 5th</span>  
-        </h2>
+          <br>
+          <span># NAVER FINANCIAL Intern</span>  
+        </next>
       </div>
     </div>
-    <div class="col-sm-2"/>
+    <div class="col-sm-4"/>
   </div>
 </template>
 
 <style>
-h2 {
+
+#back{
+  background-image: url('../assets/keyboard.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+next {
   font-family: 'Arial';
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 0.75;
 }
 
@@ -66,13 +72,13 @@ span.light {
 
 @keyframes flash{
   to {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 @keyframes flashText {
   to {
-    opacity: 0.15;
+    opacity: 0.7;
   }
 }
 </style>
